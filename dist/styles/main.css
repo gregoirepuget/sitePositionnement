@@ -64,6 +64,10 @@ header
     display: none;
 }
 
+.primaryMenu li {
+    position: relative;
+}
+
 li:hover .subMenu {
     display: block;
     position: absolute;
@@ -71,6 +75,7 @@ li:hover .subMenu {
     background: #ff4d6d;
     margin: 0;
     padding: 0;
+    width: 200px;
 }
 
 .subMenu a {
