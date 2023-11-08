@@ -12,6 +12,11 @@ body {
     margin: 0 auto;
     padding: 20px 0;
 }
+
+img {
+    max-width: 100%;
+}
+
 /*
 header
 */
@@ -82,3 +87,15 @@ li:hover .subMenu {
     background: none;
     color: #FFF;
 }
+
+main.container {
+    display: flex;
+}
+
+.product {
+    width: 333px;
+    margin: 0 20px;
+    text-align: center;
+}
+
+
