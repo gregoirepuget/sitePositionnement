@@ -1,0 +1,33 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1120px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+/*
+header
+*/
+
+#header {
+    background: #ff4d6d;
+}
+
+.flexHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo svg {
+    width: 150px;
+    height:150px;
+}
+
